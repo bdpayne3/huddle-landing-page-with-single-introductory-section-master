@@ -1,0 +1,67 @@
+:root {
+    --primary-color: hsl(257, 40%, 49%);
+    --secondary-color: hsl(300, 69%, 71%);
+    --Heading-Font: 'Poppins', sans-serif;
+    --Body-Font: 'Open Sans', sans-serif;
+}
+
+
+/* body */
+
+body {
+    background-color: var(--primary-color);
+    background-image: url("images/bg-desktop.svg");
+    color: white;
+}
+
+.mainContent {
+    display: flex;
+    padding: 2.5rem 2.5rem;
+}
+
+.mainContent > * {
+    flex-basis: 100%;
+    padding: 0rem 0rem 0rem 2.5rem;
+}
+
+h1 {
+    font-family: var(--Heading-Font);
+    font-size: 20px;
+    font-weight: 600;
+}
+h2 {
+    font-family: var(--Body-Font);
+    font-size: 10.5px;
+    font-weight: 400;
+}
+button {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    font-size: 16px;
+    padding: 10px 60px;
+    border-radius: 20px;
+    width: 50;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* Footer */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a:hover {
+    color: hsl(228, 45%, 44%);
+}
+
+i {
+    color: white;
+}
+
+i:hover {
+    color:var(--secondary-color);
+}
